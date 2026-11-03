@@ -101,3 +101,6 @@ Khi đó:
 
 - Nếu kết quả scan đạt yêu cầu, job chuyển sang trạng thái `Passed` và pipeline tiếp tục.
 - Nếu kết quả scan không đạt yêu cầu, job chuyển sang trạng thái `Failed` và GitLab tự động dừng các stage tiếp theo.
+
+## 6. Demo 
+https://youtu.be/AwJM8EQB0Go
