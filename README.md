@@ -13,6 +13,8 @@ Nếu muốn môi trường giống doanh nghiệp hơn thì sử dụng thêm:
 - internal registry server: portus, harbor, .... 
 
 ## 3. Pipeline 
+File `.gitlab-ci.yml` được trình bày trong [pipeline](SecDocs/.gitlab-ci.yml)
+
 Chú ý rằng pipeline hiện tại sử dụng `only: tags`, vì thế chỉ được trigger khi có tags được tạo, các commit thông thường sẽ không trigger pipeline 
 
 Pipeline: 
